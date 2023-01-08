@@ -1,1 +1,2 @@
-println 'Hello, Groovy!'
+@CompileDynamic
+println "Hello, Groovy!"

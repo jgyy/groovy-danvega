@@ -1,7 +1,6 @@
 /**
 * Person.groovy
 */
-@CompileDynamic
 class Person {
 
     String first
@@ -12,6 +11,7 @@ class Person {
         this.last = last
     }
 
+    @Override
     String toString() {
         return "Person: $first $last"
     }

@@ -1,3 +1,6 @@
+/**
+* User.groovy
+*/
 @groovy.transform.ToString()
 class User {
 
@@ -12,6 +15,3 @@ class User {
     }
 
 }
-
-User user = new User(firstName:'Dan', lastName:'Vega')
-println user
